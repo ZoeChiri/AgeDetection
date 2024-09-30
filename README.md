@@ -10,7 +10,7 @@ AgeDetection is a deep learning project aimed at accurately predicting the age o
 - Pre-trained models available for quick testing.
 
 
-# 1. Pretrained data 
+## 1. Pretrained data 
 
 ### Code Explanation
 - The provided code includes the following steps: Image Import and Resizing
