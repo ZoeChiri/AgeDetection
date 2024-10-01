@@ -231,7 +231,13 @@ I think narrowing down the bins should be our next step, and using a better mode
 
 ## 2. Using a different model.
 """
+from deepface import DeepFace
 
+image_path = "/content/jenna_ortega.jpg"
+analysis = DeepFace.analyze(img_path=image_path, actions=['age'])
+print("Predicted Age:", analysis[0]['age'])
+
+# it prints out 'Predicted Age: 25'
 
 
 """## 3. Making my own model."""
