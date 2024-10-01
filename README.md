@@ -66,4 +66,5 @@ note: I did change poses oops...
 The model is doing a bit better here, I can't expect it to be 100% accurate since this isn't a regression model where we have the actual age outputs. That would produce better results, but I want to make this model on looks alone. I am not in the 25-30 demographic, but it is getting closer to my actual age. 
 
 ## 3. Model Improvements
-
+Using DeepFace we get the output for the Jenna Ortega image above "Predicted Age: 25"
+Which is way closer than what we got using Caffe model.
